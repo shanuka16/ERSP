@@ -1,0 +1,54 @@
+﻿@model QuizAppML.Model.ModelInput
+
+<h1>Predict</h1>
+
+<hr />
+@if (ViewBag.Result != null)
+{
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Predictions @ViewBag.Result.Prediction</h4>
+
+        </div>
+    </div>
+    <hr />
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Predict">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Precipitation" class="control-label"></label>
+                    <input asp-for="Precipitation" class="form-control" />
+                    <span asp-validation-for="Precipitation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label asp-for="Temp_max" class="control-label"></label>
+                    <input asp-for="Temp_max" class="form-control" />
+                    <span asp-validation-for="Temp_max" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group col-md-4">
+                    <label asp-for="Temp_min" class="control-label"></label>
+                    <input asp-for="Temp_min" class="form-control" />
+                    <span asp-validation-for="Temp_min" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label asp-for="Wind" class="control-label"></label>
+                    <input asp-for="Wind" class="form-control" />
+                    <span asp-validation-for="Wind" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group text-right">
+                <input type="submit" value="Predict" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

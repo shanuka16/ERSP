@@ -1,0 +1,120 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ExamDashboaroomrd</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <style>
+        body {
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="ExamDashboard">ERS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="ExamDashboard">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PredictHome">Predict</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viewScores">Scores<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Article">Articles</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">@Html.ActionLink("LogOut", "LogOut", new { @class = "list-group-item" })</button>
+            </form>
+        </div>
+    </nav>
+
+    <br />
+    <div class="card mx-auto" style="width: 90%;"><br />
+        <br /><h2 style="text-align:center">Articles</h2><br />
+        <div class="card-body">
+            <div class="card mx-auto" style="width: 80%;">
+            <div class="card-body">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img style="width:100%;" src="../Content/web imgs/floods.jpg" class="mr-3" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="mt-0">Floods</h5>
+                                <p>A flood is an overflow of water that submerges land that is usually dry. In the sense of "flowing water", the word may also be applied to the inflow of the tide. Floods are an area of study of the discipline hydrology and are of significant concern in agriculture, civil engineering and public health.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br /><br />
+            <div class="card mx-auto" style="width: 80%;">
+            <div class="card-body">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h5 class="mt-0">Heavy Storms</h5>
+                                <p>Storm is a generic term, popularly used to describe a large variety of atmospheric disturbances, ranging from ordinary rain showers and snowstorms to thunderstorms, wind and wind-related disturbances, such as gales, tornadoes, tropical cyclones, and sandstorms.</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img style="width:100%;" src="../Content/web imgs/storm.jpg" class="mr-3" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br /><br />
+            <div class="card mx-auto" style="width: 80%;">
+            <div class="card-body">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img style="width:100%;" src="../Content/web imgs/land slide.jpg" class="mr-3" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="mt-0">Land Slides</h5>
+                                <p>Landslides, also known as landslips, are several forms of mass wasting that may include a wide range of ground movements, such as rockfalls, mudflows, shallow or deep-seated slope failures and debris flows.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

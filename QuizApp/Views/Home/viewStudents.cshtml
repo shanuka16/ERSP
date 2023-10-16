@@ -1,0 +1,45 @@
+﻿@model QuizApp.Models.student
+
+@{
+    ViewBag.Title = "Add Students";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<br />
+<h1 style="text-align:center;background-color:dimgray">View Student Details</h1>
+
+<br />
+<div style="overflow:scroll">
+    <table class="table table-responsive">
+
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Address</th>
+                <th>Name</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewData["list"] as List<QuizApp.Models.student>)
+            {
+                <tr>
+                    <td>@item.std_id</td>
+                    <td>@item.std_lname</td>
+                    <td>@item.std_mail</td>
+                    <td>@item.std_contact</td>
+                    <td>@item.std_address</td>
+                    <td>@item.std_name</td>
+                    <td>@item.std_password</td>
+
+                    <td><a class="btn btn-info btn-sm" href="@Url.Action("Actions", new { id = @item.std_id })">Actions</a></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

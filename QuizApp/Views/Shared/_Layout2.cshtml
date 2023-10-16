@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <title>Admin Dashboard</title>
+   
+    </head>
+    <body>
+        <div class="row">
+
+
+
+            <div class="col-lg-2-md-2 col-sm-2 col-xs-2" style="height:900px;border:0px solid gray;background-color:darkgray">
+
+
+                <div class="list-group formcon">
+
+
+                    <div class="list-group-item">
+                        @Html.ActionLink("Dashboard", "Dashboard", new { @class = "list-group-item" })
+                    </div>
+                    <div class="list-group-item"> 
+                        @Html.ActionLink("Add Category", "Add_Category", new { @class = "list-group-item" })
+                    </div>
+                    <div class="list-group-item">
+                        @Html.ActionLink("Add Questions", "Add_Questions", new { @class = "list-group-item" })
+                    </div>
+
+                    <div class="list-group-item">
+                        @Html.ActionLink("View Students", "viewStudents", new { @class = "list-group-item" })
+                    </div>
+
+                    <div class="list-group-item">
+                        @Html.ActionLink("Reports", "Dashboard", new { @class = "list-group-item" })
+                    </div>
+                </div>
+
+                <div class="list-group-item">
+                    @Html.ActionLink("LogOut", "LogOut", new { @class = "list-group-item" })
+                </div>
+            
+            </div>
+
+            <div class="col-lg-10-md-10 col-sm-10 col-xs-10" style="height:900px;border:1px solid gray">
+
+       
+            @RenderBody()
+         </div>
+
+          </div>
+          
+
+   
+    </body>
+</html>

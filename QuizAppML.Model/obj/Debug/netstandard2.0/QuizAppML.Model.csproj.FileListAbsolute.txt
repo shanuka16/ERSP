@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\bin\Debug\netstandard2.0\QuizAppML.Model.deps.json
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\bin\Debug\netstandard2.0\QuizAppML.Model.dll
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\bin\Debug\netstandard2.0\QuizAppML.Model.pdb
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.dll
+C:\Users\Administrator\Desktop\Final Application\Updated to New .net version\quizApp V5 p2\QuizApp\QuizAppML.Model\obj\Debug\netstandard2.0\QuizAppML.Model.pdb
